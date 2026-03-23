@@ -1,0 +1,5 @@
+bytepack/__pycache__/
+*.pyc
+__pycache__/
+dist/
+*.egg-info/
