@@ -32,10 +32,10 @@ agency-swarm = ["agency-swarm>=0.2"]
 all = ["aiohttp>=3.8"]
 
 [project.urls]
-Homepage = "https://github.com/wirepack/bytepack"
-Documentation = "https://github.com/wirepack/bytepack#readme"
-Repository = "https://github.com/wirepack/bytepack"
-Issues = "https://github.com/wirepack/bytepack/issues"
+Homepage = "https://github.com/Sutr-dev999/bytepack"
+Documentation = "https://github.com/Sutr-dev999/bytepack#readme"
+Repository = "https://github.com/Sutr-dev999/bytepack"
+Issues = "https://github.com/Sutr-dev999/bytepack/issues"
 
 [tool.setuptools.packages.find]
 include = ["bytepack*"]
