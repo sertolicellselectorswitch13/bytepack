@@ -206,3 +206,22 @@ MIT
 ## Contributing
 
 PRs welcome. Please include tests.
+
+## Ecosystem
+
+### Starter Templates
+- [crewai-efficient-agents](https://github.com/Sutr-dev999/crewai-efficient-agents) — CrewAI starter with binary encoding
+- [langgraph-binary-agents](https://github.com/Sutr-dev999/langgraph-binary-agents) — LangGraph workflow with encoding
+- [agent-monitoring-system](https://github.com/Sutr-dev999/agent-monitoring-system) — Multi-agent monitoring with binary transport
+
+### Articles
+- [Benchmarking Agent Communication: JSON vs Binary](https://dev.to/sutrdev999/benchmarking-agent-communication-json-vs-binary-encoding-38g8)
+- [How to Reduce Agent Message Size by 95%](https://dev.to/sutrdev999/how-to-reduce-agent-message-size-by-95-3jia)
+- [Efficient Communication for CrewAI & LangGraph](https://dev.to/sutrdev999/efficient-multi-agent-communication-for-crewai-langgraph-autogen-1n9j)
+- [Build an MCP Tool for Binary Encoding](https://dev.to/sutrdev999/build-an-mcp-tool-server-for-binary-encoding-in-5-minutes-jd)
+- [Binary Encoding for Google A2A Protocol](https://dev.to/sutrdev999/binary-encoding-for-google-a2a-agent-to-agent-protocol-4ff9)
+
+### Registries
+- [Smithery](https://smithery.ai/servers/bytepack/binary-encoding) — MCP tool registry
+- [PyPI](https://pypi.org/project/bytepack/) — Python package
+- [npm](https://www.npmjs.com/package/bytepack-encode) — JavaScript package
