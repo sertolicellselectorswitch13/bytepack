@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bytepack"
+version = "0.1.0"
+description = "Fixed-size binary encoding for AI agent communication. 20x more compact than JSON."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+keywords = ["encoding", "binary", "compression", "agent", "communication", "mcp", "a2a", "multi-agent"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Communications",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.optional-dependencies]
+async = ["aiohttp>=3.8"]
+crewai = ["crewai>=0.50"]
+langgraph = ["langchain-core>=0.1"]
+agency-swarm = ["agency-swarm>=0.2"]
+all = ["aiohttp>=3.8"]
+
+[project.urls]
+Homepage = "https://github.com/wirepack/bytepack"
+Documentation = "https://github.com/wirepack/bytepack#readme"
+Repository = "https://github.com/wirepack/bytepack"
+Issues = "https://github.com/wirepack/bytepack/issues"
+
+[tool.setuptools.packages.find]
+include = ["bytepack*"]
