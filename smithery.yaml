@@ -1,0 +1,30 @@
+startCommand:
+  type: http
+  configSchema:
+    type: object
+    properties: {}
+  url: https://sutr.lol
+  headers: {}
+
+tools:
+  - name: encode_binary
+    description: "Encode structured data into fixed-size 2556-byte binary. 20x more compact than JSON for agent-to-agent communication."
+    inputSchema:
+      type: object
+      properties:
+        data:
+          type: object
+          description: "Structured data to encode"
+      required:
+        - data
+
+  - name: decode_binary
+    description: "Decode a base64-encoded binary message back to structured data."
+    inputSchema:
+      type: object
+      properties:
+        binary:
+          type: string
+          description: "Base64-encoded 2556-byte binary message"
+      required:
+        - binary
